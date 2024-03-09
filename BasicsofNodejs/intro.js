@@ -14,18 +14,12 @@
 //  console.log("hello world");
 // }, 1000)
 
-// Modules
-const john = 'john'
-const peter = 'peter'
-const sayHi = (name) =>{
-console.log(`hello there ${name}`)
-}
+// Modules Es6
+
+const {john, peter} = require('./1-modules')
+const sayHi = require('./2-utils')
+// console.log(names);
 sayHi('susan');
+
 sayHi(john);
 sayHi(peter);
-
-
-
-
-
-
