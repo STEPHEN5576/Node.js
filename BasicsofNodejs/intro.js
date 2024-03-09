@@ -5,3 +5,12 @@
 // require - function to use modules (CommonJS)
 // module - info about current module (file)
 // process - info about env where the program is being executed
+// console.log(__dirname);
+
+function ste(){
+ console.log("My name is Stephen");
+}
+// setTimeout(() => {
+//   console.log("I am late");
+//   ste();
+// }, 2000);
