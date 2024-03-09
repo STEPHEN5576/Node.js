@@ -7,10 +7,13 @@
 // process - info about env where the program is being executed
 // console.log(__dirname);
 
-function ste(){
- console.log("My name is Stephen");
-}
-// setTimeout(() => {
-//   console.log("I am late");
-//   ste();
-// }, 2000);
+// function ste(){
+//  console.log("My name is Stephen");
+// }
+// setInterval(() =>{
+//  console.log("hello world");
+// }, 1000)
+
+// Modules
+
+
