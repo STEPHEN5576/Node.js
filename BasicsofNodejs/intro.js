@@ -23,3 +23,6 @@ sayHi('susan');
 
 sayHi(john);
 sayHi(peter);
+
+const data = require('./3-alternative');
+console.log(data);
