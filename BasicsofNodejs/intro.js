@@ -16,13 +16,14 @@
 
 // Modules Es6
 
-const {john, peter} = require('./1-modules')
-const sayHi = require('./2-utils')
-// console.log(names);
-sayHi('susan');
+// const {john, peter} = require('./1-modules')
+// const sayHi = require('./2-utils')
+// // console.log(names);
+// sayHi('susan');
 
-sayHi(john);
-sayHi(peter);
+// sayHi(john);
+// sayHi(peter);
 
-const data = require('./3-alternative');
-console.log(data);
+// const data = require('./3-alternative');
+// console.log(data);
+require("./4-mind-genarade");
