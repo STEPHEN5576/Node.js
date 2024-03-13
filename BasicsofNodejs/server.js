@@ -14,3 +14,15 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(5000);
+
+
+//  used by class http.server it has the event request so i could say .on
+// const http = require("http");
+
+// const server = http.createServer();
+
+// server.on("request", (req, res) => {
+//   res.end("Welcome");
+// });
+
+// server.listen(5000);
